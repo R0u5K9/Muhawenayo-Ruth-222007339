@@ -1,0 +1,95 @@
+<html>
+<head> 
+<title>mybook</title>
+</head>
+<body bgcolor="blue" style="color:black;font:Times New Roman ;font-size:22 ;margin-top: 20;margin-bottom: 20;margin-left: 20;margin-right: 20;">
+    <a href="home.html" style="padding: 10px; color: white; background-color:greenyellow; text-decoration: none; margin-right: 15px;">HOME</a>
+    <a href="about.html" style="padding: 10px; color: white; background-color:greenyellow; text-decoration: none; margin-right: 15px;">ABOUT US</a>
+    <a href="contact.html" style="padding: 10px; color: white; background-color:greenyellow; text-decoration: none; margin-right: 15px;">CONTACT US</a>
+    <a href="services.html" style="padding: 10px; color: white; background-color:greenyellow; text-decoration: none; margin-right: 15px;">SERVICES</a>
+    <a href="form.html" style="padding: 10px; color: white; background-color: greenyellow; text-decoration: none; margin-right: 15px;">FORM</a>
+    <a href="table.html" style="padding: 10px; color: white; background-color: greenyellow; text-decoration: none; margin-right: 15px;">TABLE</a>
+    <a href="mybook.html" style="padding: 10px; color: white; background-color: greenyellow; text-decoration: none; margin-right: 15px;">MY BOOK
+    </a><br><br>
+    <hr>
+    <br>
+    <section>
+
+        <h1><bold>ENTITIES</h1></section></bold> 
+<h2>Description of all entities and their corresponding attributes that are in data base</h2>
+<h3>1.Owners table structure:</h3>
+This table will hold the names and other address that be-longs to those who will register in order to report their lost items.
+ 
+<u>Id PRIMARY KEY   :</u> id for the owner of item.<br>
+<u>Name (VARCHAR):</u> name of item’s owner<br>
+<u>Phone (VARCHAR) :</u>phone nbr of item’s owner<br>
+<u>Country (VARCHAR)  :</u> country where item’s owner belong<br>
+<u>District (VARCHAR) :</u> district in which item’s owner belongs<br>
+<u>Sector ( VARCHAR)  :</u>   sector in which item’s owner belongs<br>
+<u>Password:</u> Password made by user to help him/her log in next time<br>
+<u>Confirm_password  :</u>   this confirms password user entered before<br>
+<h3><bold>2.	LOST_ITEMS table structure</h3></bold>
+This table is the one to keep records of those reported lost items that users or owners will report to be lost.<br>
+ 
+<u><bold>Item_id  primary key :</u></bold> id of reported lost item<br>
+<u><bold>Name (varchar):</u></bold> name of reported lost item<br>
+<u><bold>Description (varchar):</u></bold> description of reported lost item<br>
+<u><bold>Lost_date (varchar):</u></bold> date on which items was lost.<br>
+
+<h3><bold>3.	FOUND_ITEMS table structure:</h3></bold><br>
+This table is the one to keep records of those found items that users or owners reported previously to be lost.<br>
+ 
+<u><bold>Item_id  primary key:</u></bold> id of found item<br>
+<u><bold>Name (varchar):</u></bold> name of that found item<br>
+<u><bold>Description (varchar):</u></bold> description of  founditem<br>
+<u><bold>Found_date (varchar):</u></bold> date on which items was found.<br>
+
+<h3><bold>4.	STATUS OF ITEMS table structure:</h3></bold><br>
+This table status items is to show the status of items in da-tabase whether it is lost or already found.<br>
+ 
+<u><bold>Id primary key :</u></bold> status id of items<br>
+<u><bold>Name (varchar):</u></bold> status name of items<br>
+
+<h3><bold>5.	ADMIN TABLE structure:</h3></bold><br>
+
+<u><bold>Username (varchar):</u></bold> username to be used by admin<br>
+<u><bold>Password :</u></bold> password to be used by admin<br>
+
+    </section>
+
+
+<section>
+    <h1><bold>JAVA PROGRAMMING</h1></bold>
+<h2>Description</h2><br>
+<h3>Introduction</h3><br>
+In this chapter I will be describing how powerful generalpurpose programming language was used to create the analyzed system. Under this chapter I will undergo full detail of how everything will function together with database that have been describe above and how it cope with full analyzed system.
+Tools used to develop this system in java programming
+Eclipse IDE: an integrated development environment used in computer programming. It contains a base workspace and an extensible plug-in system for customizing the environment. It is the second-most-popular IDE for Java development, and was the most popular.
+
+JAR stands for Java Archive: It's a file format based on the popular ZIP file format and is used for aggregating many files into one. Although JAR can be used as a general archiving tool, the primary motivation for its development was so that Java applets and their requisite components.<br>
+MySQL Connectors: MySQL provides standards-based drivers for JDBC, ODBC, and .Net enabling developers to build database applications in their language.<br>
+
+<h3><bold>Forms and Images</h3></bold>
+
+<h3>Forms</h3>
+<h4>1.Registration Form</h4><br>
+<img src="./images/registration.png"  alt="Registration">
+
+<h4>2.Login Form</h4>
+<img src="./images/login.png">
+
+<h4>3.LostandfounditemMenu. Form</h4>
+<img src="./images/Menu.png" alt="Menu form">
+<h4>4.lost_items Form</h4><br>
+<img src="./images/lost.png" alt=" lost form">
+<h4>5.found_items Form</h4><br>
+<img src="./images/found.png" alt=" found items">
+<h4>6. status_items</h4>
+<img src="./images/Status.png" alt="status form"
+
+
+</section>
+</body>
+</html>
+
+
